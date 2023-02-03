@@ -3,7 +3,7 @@ import { ButtonPrimary } from "../Buttons/style";
 import { HeaderComponent } from "../Header";
 import { DivButtonsWelcome, DivStartPage, DivWelcome } from "./style";
 
-export const StartPage = () => {
+export function StartPageComponent() {
   return (
     <DivStartPage>
       <HeaderComponent />
@@ -17,4 +17,4 @@ export const StartPage = () => {
       </DivWelcome>
     </DivStartPage>
   );
-};
+}

@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const TitleOne = styled.h1`
-  font-weight: 600;
+  font-weight: 500;
   font-size: 34px;
   line-height: 45px;
   color: var(${(props) => props.color});

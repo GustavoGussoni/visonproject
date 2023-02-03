@@ -16,6 +16,8 @@ export const GlobalStyles = createGlobalStyle`
     --white: #fff;
     --black: #000;
     --grey0: #2A2A2A;   
+
+    --height1: 150%
     
 }
 

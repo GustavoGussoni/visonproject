@@ -1,10 +1,12 @@
 import "./App.css";
-import { StartPage } from "./components/StartPage";
+import { OurSuitesComponent } from "./components/OurSuites";
+import { StartPageComponent } from "./components/StartPage";
 
 function App() {
   return (
     <div className="App">
-      <StartPage></StartPage>
+      <StartPageComponent />
+      <OurSuitesComponent />
     </div>
   );
 }
