@@ -18,7 +18,11 @@ export const Card = styled.div`
 
   img {
     width: 100%;
+    background-color: var(--brown-tertiary);
   }
+  /* @media (min-width: 800px) {
+    min-width: 300px;
+  } */
 `;
 
 export const DivText = styled.div`
@@ -26,4 +30,5 @@ export const DivText = styled.div`
   flex-direction: column;
   gap: 8px;
   margin-bottom: 40px;
+  padding: 0 8px;
 `;

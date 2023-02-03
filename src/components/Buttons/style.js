@@ -44,6 +44,15 @@ export const ButtonSecondary = styled.button`
   padding: 12px 16px;
 `;
 
+export const ButtonTertiary = styled.button`
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--white);
+  background: var(--grey0);
+  padding: 16px 24px;
+`;
+
 export const ButtonSmall = styled.button`
   font-weight: 500;
   font-size: 16px;

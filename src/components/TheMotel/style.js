@@ -9,7 +9,6 @@ export const DivTheMotel = styled.article`
   justify-content: center;
   flex-direction: column-reverse;
   align-items: center;
-  position: relative;
 
   .div-img {
     width: 104%;
@@ -43,8 +42,8 @@ export const TheMotelInfo = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  position: absolute;
-  bottom: -80%;
+  position: relative;
+  bottom: 40px;
 
   @media (min-width: 800px) {
     align-self: end;
@@ -58,7 +57,7 @@ export const ContentInfo = styled.div`
   justify-content: flex-start;
   padding: 72px 32px;
   flex-direction: column;
-  height: 512px;
+
   gap: 20px;
   margin: 0 24px;
 
@@ -67,5 +66,6 @@ export const ContentInfo = styled.div`
   }
   @media (min-width: 800px) {
     margin: unset;
+    height: 500px;
   }
 `;
