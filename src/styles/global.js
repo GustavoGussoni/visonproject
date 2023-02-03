@@ -19,8 +19,10 @@ export const GlobalStyles = createGlobalStyle`
     --black: #000;
     --grey0: #2A2A2A;   
 
-    --height1: 150%
-    --height2: 160%
+    --height1: 150%;
+    --height2: 160%;
+
+    --border1: 1px solid #fff
     
 }
 

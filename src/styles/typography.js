@@ -50,6 +50,15 @@ export const TextContact = styled.p`
   font-size: 11px;
   line-height: 175%;
   letter-spacing: -0.01em;
+  color: var(${(props) => props.color});
+`;
+
+export const TextContactTwo = styled.p`
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: -0.01em;
+  color: var(${(props) => props.color});
 `;
 
 export const TextFooter = styled.p`
@@ -57,4 +66,5 @@ export const TextFooter = styled.p`
   font-size: 10px;
   line-height: 120%;
   text-transform: uppercase;
+  color: var(${(props) => props.color});
 `;
